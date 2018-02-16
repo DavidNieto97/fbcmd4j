@@ -1,4 +1,4 @@
-# fbcmd4j
+# FBcmd4j
 
 Facebook CLI client. For educational purposes only.
 
