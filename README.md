@@ -1,12 +1,11 @@
 VERSION 1.0
-------------------------------------------------------------------------------------------------------------------------------
 # fbcmd4j 
 Cliente de Facebook en Lineas de Comando (CLI) hecho en Java.
 Evidencia de Computacion en Java.
 
 ## Instalación
 
-*Descargar el cliente desde el link del repositorio: https://github.com/DavidNieto97/fbcmd4j.
+Descargar el cliente desde el link del repositorio: https://github.com/DavidNieto97/fbcmd4j.
 Antes de descargar y usar, verificar que el sistema operativo (OS) cuente con Java 8 o superior y JDK version 1.8.0._201.
 Abrir el buscador del OS y buscar "CMD" o "Command Prompt".
 Cambiar la direccion del directorio, en donde este el Java JDK instalado ejemplo:
@@ -38,4 +37,4 @@ Universidad: Tecmilenio Campus LasTorres.
 
 Apache License 2.0
 Informacion sobre la licencia: (Link a poner al tener la licencia).
-------------------------------------------------------------------------------------------------------------------------------
+
