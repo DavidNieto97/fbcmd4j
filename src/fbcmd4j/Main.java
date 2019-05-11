@@ -122,7 +122,7 @@ public class Main {
 					logger.error(e);
 				}
 			}
-			Utils.Save_Post(fileName, post);
+			Utils.guardar_Post(fileName, post);
 		}
 	}
 }
