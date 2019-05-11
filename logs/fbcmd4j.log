@@ -1,0 +1,33 @@
+2019-05-10 20:54:16.039 [main] INFO  fbcmd4j.Main - Iniciando app
+2019-05-10 20:58:58.523 [main] INFO  fbcmd4j.Main - Iniciando app
+2019-05-10 21:01:47.082 [main] INFO  fbcmd4j.Main - Iniciando app
+2019-05-10 21:03:55.731 [main] INFO  fbcmd4j.Utils - Filepath name: 'NewsFeed.txt'.
+2019-05-10 21:04:32.827 [main] INFO  fbcmd4j.Utils - Filepath name: 'Wall.txt'.
+2019-05-10 21:04:48.866 [main] ERROR fbcmd4j.Utils - message - (#200) If posting to a group, requires app being installed in the group, and \
+          either publish_to_groups permission with user token, or both manage_pages \
+          and publish_pages permission with page token; If posting to a page, \
+          requires both manage_pages and publish_pages as an admin with \
+          sufficient administrative permission
+code - 200
+Relevant information for error recovery can be found on the Facebook Developers Document:
+	https://developers.facebook.com/docs/graph-api/using-graph-api/#errors
+
+FacebookException{statusCode=403, errorType='OAuthException', errorMessage='(#200) If posting to a group, requires app being installed in the group, and \
+          either publish_to_groups permission with user token, or both manage_pages \
+          and publish_pages permission with page token; If posting to a page, \
+          requires both manage_pages and publish_pages as an admin with \
+          sufficient administrative permission', errorCode=200, errorSubcode=-1, version=2.4.13}
+2019-05-10 21:05:51.314 [main] ERROR fbcmd4j.Utils - message - (#200) If posting to a group, requires app being installed in the group, and \
+          either publish_to_groups permission with user token, or both manage_pages \
+          and publish_pages permission with page token; If posting to a page, \
+          requires both manage_pages and publish_pages as an admin with \
+          sufficient administrative permission
+code - 200
+Relevant information for error recovery can be found on the Facebook Developers Document:
+	https://developers.facebook.com/docs/graph-api/using-graph-api/#errors
+
+FacebookException{statusCode=403, errorType='OAuthException', errorMessage='(#200) If posting to a group, requires app being installed in the group, and \
+          either publish_to_groups permission with user token, or both manage_pages \
+          and publish_pages permission with page token; If posting to a page, \
+          requires both manage_pages and publish_pages as an admin with \
+          sufficient administrative permission', errorCode=200, errorSubcode=-1, version=2.4.13}
