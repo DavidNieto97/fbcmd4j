@@ -36,6 +36,9 @@ public class Utils {
 	}
 
 	// Datos requeridos del archivo fbcmd4j.properties
+	// oauth.accesstoken user access token: EAAIwWR8bZCV8BAGpRx415KS0mkQfrmSCKKj298v9i5jZANdPvbx9SQTbVqgTjSt2fkhuYHZAZBYV1L8tja7Jj5Z
+	// AX8RZAfOkFuHSgCZBUOMw7mX1gS7tc1xAwCJWxgRASWWj8uSNepigj81G6ag7X1ry9mBUKZBOfNcWke5HQg0F5BDlNgGEvb2d2hZAZBqbe6ZCPEZD
+	// oauth.accesstoken App Token:616109285571935|e9jXJ43OWX7hXpqAXbZemcSy7EU
 	public static Facebook configFacebook(Properties propiedades) {
 		Facebook facebook_instance = new FacebookFactory().getInstance();
 		facebook_instance.setOAuthAppId(propiedades.getProperty("oauth.appId"),

@@ -21,7 +21,7 @@ public class Main {
 	private static int seleccion = 0;
 
 	public static void main(String[] args) {
-		logger.info("Iniciando app");
+		logger.info("Iniciando app...");
 		Facebook fB = null;
 		Properties props = null;
 
@@ -57,7 +57,7 @@ public class Main {
 						guardar_Facebook("NewsFeed", newsFeed, scanner);
 						break;
 					case 2:
-						System.out.println("Obtener Muro");
+						System.out.println("Obtener Wall");
 						ResponseList<Post> wall = fB.getPosts();
 						for (Post p : wall) {
 							Utils.printPost(p);
@@ -102,7 +102,7 @@ public class Main {
 	public static void guardar_Facebook(String fileName, ResponseList<Post> posts, Scanner scanner) {
 		System.out.println("¿Quieres guardar lo mostrado en un archivo txt?");
 		String seleccion = scanner.nextLine();
-		if (seleccion.contains("Si") || seleccion.contains("si") || seleccion.contains("Yes") || seleccion.contains("yes")) {
+		if (seleccion.contains("Si") || seleccion.contains("si")) {
 			List<Post> post = new ArrayList<>();
 			int num = 0;
 			while (num <= 0) {
